@@ -1,0 +1,66 @@
+
+
+h1{
+padding: 7%;
+font-family: 'Permanent Marker', cursive;
+font-size: 80px;
+background-image: url("images/goldsequin.jpg");
+margin-top:0;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	color: white;
+}
+
+body{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	background-color: pink;
+	font-color: white;
+}
+
+#hidden{
+	display: none;
+}
+
+button{
+	margin:auto;
+	padding:auto;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	background-color: lavender;
+}
+
+
+#user-message, #computer-message, #play-again, #error-message{
+  display: none;
+  font-size: 50px;
+  color: white;
+}
+
+#user-message{
+	float: left;
+	margin-left:5%;
+	color: white;
+}
+
+
+#computer-message{
+	float:right;
+	margin-right: 5%;
+	color: white;
+}
+
+#result{
+	font-size: 100px;
+	text-align:center;
+	color: white;
+}
+
+
+#play-again{
+	background-color: purple;
+}
